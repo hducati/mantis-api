@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.157",
+    "@swc/jest": "^0.2.20",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/mongoose": "^5.11.97",
+    "jest": "^27.5.1",
+    "node-mocks-http": "^1.11.0",
+    "prettier": "^2.6.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "celebrate": "^15.0.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "inversify": "^6.0.1",
+    "mongoose": "^6.2.7",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0"
+  }
+}
